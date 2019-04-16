@@ -10,4 +10,11 @@
 
     <packaging>pom</packaging>
 
+    <modules>
+        <module>SSM-SECOND-KILL-API</module>
+        <module>SSM-SECOND-KILL-CONSUMER</module>
+        <module>SSM-SECOND-KILL-SERVICE</module>
+        <module>SSM-SECOND-KILL-WEB</module>
+    </modules>
+
 </project>
