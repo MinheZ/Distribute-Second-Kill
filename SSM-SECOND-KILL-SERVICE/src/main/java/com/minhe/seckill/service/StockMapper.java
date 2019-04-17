@@ -1,6 +1,5 @@
-package com.minhe.seckill.dao;
+package com.minhe.seckill.service;
 
-import com.minhe.seckill.pojo.Stock;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.Date;
@@ -23,12 +22,4 @@ public interface StockMapper {
     **/
     int reduceCount(@Param("id") Integer id, @Param("killTime") Date killTime);
 
-    /**
-     * @Description: 根据 ID 查
-     * @Param: [id]
-     * @return: com.minhe.seckill.pojo.Stock
-     * @Author: MinheZ
-     * @Date: 2019/4/17
-    **/
-    Stock queryById(Integer id);
 }

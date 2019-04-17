@@ -1,6 +1,7 @@
 package com.minhe.seckill.pojo;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @program: SSM-SECOND-KILL
@@ -17,6 +18,9 @@ public class Stock implements Serializable {
     private String name;
     private Integer count;
     private Integer sale;
+    private Date startTime;
+    private Date endTime;
+    private Date createTime;
     private Integer version;
 
     public Integer getId() {
@@ -51,11 +55,49 @@ public class Stock implements Serializable {
         this.sale = sale;
     }
 
+    public Date getStartTime() {
+        return startTime;
+    }
+
+    public void setStartTime(Date startTime) {
+        this.startTime = startTime;
+    }
+
+    public Date getEndTime() {
+        return endTime;
+    }
+
+    public void setEndTime(Date endTime) {
+        this.endTime = endTime;
+    }
+
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
+
     public Integer getVersion() {
         return version;
     }
 
     public void setVersion(Integer version) {
         this.version = version;
+    }
+
+    @Override
+    public String toString() {
+        return "Stock{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", count=" + count +
+                ", sale=" + sale +
+                ", startTime=" + startTime +
+                ", endTime=" + endTime +
+                ", createTime=" + createTime +
+                ", version=" + version +
+                '}';
     }
 }

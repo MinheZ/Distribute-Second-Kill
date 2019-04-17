@@ -20,7 +20,7 @@ CREATE TABLE `stock` (
 `count` INT ( 11 ) NOT NULL COMMENT '库存',
 `sale` INT ( 11 ) NOT NULL COMMENT '已售',
 `version` INT ( 11 ) NOT NULL COMMENT '乐观锁版本号',
-PRIMARY KEY ( `id` ) 
+PRIMARY KEY ( `id` )
 ) ENGINE = INNODB AUTO_INCREMENT = 2 DEFAULT charset = utf8;
 
 

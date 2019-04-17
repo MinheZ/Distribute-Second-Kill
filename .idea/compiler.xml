@@ -12,5 +12,8 @@
         <module name="SSM-SECOND-KILL-WEB" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SSM-SECOND-KILL-DAO" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
