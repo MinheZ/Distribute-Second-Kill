@@ -83,6 +83,8 @@ public class StockServiceImpl implements StockService {
         return md5;
     }
 
+
+
     /**
      * @Description: 根据 ID 更新库存
      * @Param: [stock]
