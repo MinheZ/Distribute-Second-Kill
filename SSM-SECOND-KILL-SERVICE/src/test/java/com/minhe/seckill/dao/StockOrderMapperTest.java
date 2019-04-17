@@ -23,7 +23,13 @@ public class StockOrderMapperTest {
         int ret = orderMapper.insertStockOrder(id, name, userPhone);
         System.out.println(ret);
     }
-
+    /**
+     * @Description: 根据库存订单ID 查询出库存的对象
+     * @Param: []
+     * @return: void
+     * @Author: MinheZ
+     * @Date: 2019/4/17
+    **/
     @Test
     public void queryByIdWithStockTest() {
         StockOrder stockOrder = orderMapper.queryByIdWithStock(id, userPhone);

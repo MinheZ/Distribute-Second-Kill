@@ -7,6 +7,8 @@
         UPDATE `stock`
         SET count = count-1, sale = sale + 1
         WHERE id=#{id}
+          AND start_time <![CDATA[<=]]> #{killTime}
+          AND end_time >= #{killTime}
           AND count > 0;
     </update>
 

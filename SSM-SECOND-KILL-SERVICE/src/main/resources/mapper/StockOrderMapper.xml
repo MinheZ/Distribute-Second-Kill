@@ -15,7 +15,7 @@
         so.name,
         so.user_phone,
         s.id "stock.id",
-#         s.name "stock.name",
+        s.name "stock.name",
         s.count "stock.count",
         s.sale "stock.sale",
         s.start_time "stock.start_time",
