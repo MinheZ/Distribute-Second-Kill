@@ -1,7 +1,5 @@
-package com.minhe.seckill.mapper;
+package com.minhe.seckill.dao;
 
-
-import com.minhe.seckill.dao.StockMapper;
 import com.minhe.seckill.pojo.Stock;
 import org.junit.Test;
 import org.junit.runner.RunWith;

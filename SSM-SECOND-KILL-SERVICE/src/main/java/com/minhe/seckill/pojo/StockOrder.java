@@ -13,9 +13,12 @@ import java.util.Date;
 public class StockOrder implements Serializable {
 
     private Integer id;
-    private Integer sid;
     private String name;
+    private Long userPhone;
     private Date createTime;
+
+
+    private Stock stock;
 
     public Integer getId() {
         return id;
@@ -23,14 +26,6 @@ public class StockOrder implements Serializable {
 
     public void setId(Integer id) {
         this.id = id;
-    }
-
-    public Integer getSid() {
-        return sid;
-    }
-
-    public void setSid(Integer sid) {
-        this.sid = sid;
     }
 
     public String getName() {
@@ -47,5 +42,31 @@ public class StockOrder implements Serializable {
 
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
+    }
+
+    public Long getUserPhone() {
+        return userPhone;
+    }
+
+    public void setUserPhone(Long userPhone) {
+        this.userPhone = userPhone;
+    }
+
+    public Stock getStock() {
+        return stock;
+    }
+
+    public void setStock(Stock stock) {
+        this.stock = stock;
+    }
+
+    @Override
+    public String toString() {
+        return "StockOrder{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", userPhone=" + userPhone +
+                ", createTime=" + createTime +
+                '}';
     }
 }
