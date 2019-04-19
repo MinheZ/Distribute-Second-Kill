@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/SSM-SECOND-KILL-API" />
     <file type="web" url="file://$PROJECT_DIR$/SSM-SECOND-KILL-CONSUMER" />
+    <file type="web" url="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE" />
     <file type="web" url="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE" />
     <file type="web" url="file://$PROJECT_DIR$/SSM-SECOND-KILL-WEB" />
   </component>
@@ -12,10 +13,15 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/pom.xml" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/pom.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-API/pom.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-CONSUMER/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="NodePackageJsonFileManager">

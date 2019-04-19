@@ -2,26 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc07393a-3a31-44be-8a5b-ef92e0a4b632" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/StockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/StockOrderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/StockOrderKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/api/impl/StockServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/generator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/dao/StockMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/dao/StockOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-POJO/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/StockServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-TOOLS/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/StockOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/StockOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockOrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/StockService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapper/StockMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapper/StockMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapper/StockOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapper/StockOrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockOrderMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockOrderMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/StockServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/StockServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/StockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-POJO/src/main/java/com/minhe/seckill/pojo/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/StockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-POJO/src/main/java/com/minhe/seckill/pojo/StockExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/StockOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-POJO/src/main/java/com/minhe/seckill/pojo/StockOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/StockOrderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-POJO/src/main/java/com/minhe/seckill/pojo/StockOrderExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/StockOrderKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-POJO/src/main/java/com/minhe/seckill/pojo/StockOrderKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/SSM-SECOND-KILL-SERVICE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/api/impl/StockServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/dao/StockMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/dao/StockOrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dto/Exposer.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-TOOLS/src/main/java/com/minhe/seckill/dto/Exposer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/exception/RepetKillException.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-TOOLS/src/main/java/com/minhe/seckill/exception/RepetKillException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/exception/SeckillCloseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-TOOLS/src/main/java/com/minhe/seckill/exception/SeckillCloseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/exception/StockException.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-TOOLS/src/main/java/com/minhe/seckill/exception/StockException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/StockService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/generator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapper/StockMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/mapper/StockMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapper/StockOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/mapper/StockOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/properties/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockOrderMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/StockServiceImplTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,6 +56,12 @@
     <ignored path="$PROJECT_DIR$/SSM-SECOND-KILL-API/target/" />
     <ignored path="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/target/" />
     <ignored path="$PROJECT_DIR$/SSM-SECOND-KILL-DAO/target/" />
+    <ignored path="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/target/" />
+    <ignored path="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-POJO/target/" />
+    <ignored path="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/target/" />
+    <ignored path="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/target/" />
+    <ignored path="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-TOOLS/target/" />
+    <ignored path="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,49 +99,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/api/impl/StockServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/StockService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="1118">
+              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="169" column="25" selection-start-line="159" selection-start-column="12" selection-end-line="169" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5122">
-              <caret line="206" column="39" selection-start-line="206" selection-start-column="39" selection-end-line="206" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/StockService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="192">
+              <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/StockServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1156">
-              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="416">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-service.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="75" lean-forward="true" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="664">
+              <caret line="55" column="65" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
+              <folding>
+                <element signature="e#759#775#0" expanded="true" />
+                <element signature="e#813#826#0" expanded="true" />
+                <element signature="e#869#887#0" expanded="true" />
+                <element signature="e#930#948#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-766">
+              <caret line="126" selection-start-line="126" selection-end-line="126" />
             </state>
           </provider>
         </entry>
@@ -121,8 +183,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -138,14 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/pom.xml" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-CONSUMER/pom.xml" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/pojo/StockExample.java" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/generatorConfig" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapping/StockMapper.xml" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapping/StockOrderMapper.xml" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/mapper/StockMapper.java" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/mapper/StockMapper" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/mapper/Runwith.java" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mybatis/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-DAO/pom.xml" />
@@ -172,19 +226,31 @@
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/OrderService.java" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockOrderMapper.java" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockMapper.java" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockMapperTest.java" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockOrderMapperTest.java" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/StockServiceImplTest.java" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapper/StockOrderMapper.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-API/pom.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/dto/JasonSerializer.java" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/api/impl/StockServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/generator.xml" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/pom.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapper/StockMapper.xml" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockMapperTest.java" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockOrderMapperTest.java" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/StockService.java" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/StockServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-TOOLS/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/dao/StockMapper.java" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/dao/StockOrderMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/StockService.java" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-service.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/StockServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -207,16 +273,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SSM-SECOND-KILL-API" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="SSM-SECOND-KILL-SERVICE" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SSM-SECOND-KILL-SERVICE" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -249,11 +306,6 @@
             <path>
               <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
               <item name="SSM-SECOND-KILL-API" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -289,45 +341,34 @@
             <path>
               <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-DAO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-DAO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-DAO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-DAO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -335,46 +376,97 @@
             <path>
               <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-DAO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-INTERFACE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-INTERFACE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-INTERFACE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-INTERFACE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-INTERFACE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
               <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
               <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -383,63 +475,12 @@
             <path>
               <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-MANAGER" type="462c0819:PsiDirectoryNode" />
               <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM-SECOND-KILL-SERVICE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -456,13 +497,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-POJO/src/main/java/com/minhe/seckill/pojo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4132353" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -479,16 +520,17 @@
       <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-SERVICE\src\main\resources\mapping" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.minhe.seckill.service.impl" />
+      <recent name="com.minhe.seckill.service" />
       <recent name="com.minhe.seckill.api.pojo" />
       <recent name="com.minhe.seckill.generator" />
-      <recent name="com.minhe.seckill.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-SERVICE\src\main\java\com\minhe\seckill\dao" />
-      <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-SERVICE\src\main\resources\mapper" />
-      <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-API\src\main\java\com\minhe\seckill\api\pojo" />
-      <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-API\src\main\java\com\minhe\seckill\api" />
-      <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-SERVICE\src\main\resources" />
+      <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-MANAGER\SSM-SECOND-KILL-POJO\src\main\java\com\minhe\seckill\pojo" />
+      <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-MANAGER\SSM-SECOND-KILL-DAO\src\main\java\com\minhe\seckill\dao" />
+      <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-MANAGER\SSM-SECOND-KILL-TOOLS\src\main\java" />
+      <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-MANAGER\SSM-SECOND-KILL-SERVICE\src\main\resources" />
+      <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-MANAGER\SSM-SECOND-KILL-INTERFACE\src\main\java\com\minhe\seckill\interface" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.minhe.seckill.service.impl" />
@@ -507,9 +549,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StockMapperTest.queryByIdTest">
+  <component name="RunManager" selected="JUnit.StockServiceImplTest.getStockById (1)">
     <configuration name="StockMapperTest.queryByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSM-SECOND-KILL-SERVICE" />
+      <module name="SSM-SECOND-KILL-Manager" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.minhe.seckill.dao.*" />
@@ -525,7 +567,7 @@
       </method>
     </configuration>
     <configuration name="StockMapperTest.reduceCountTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSM-SECOND-KILL-SERVICE" />
+      <module name="SSM-SECOND-KILL-Manager" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.minhe.seckill.dao.*" />
@@ -540,23 +582,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockOrderMapperTest.insertStockOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSM-SECOND-KILL-SERVICE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.minhe.seckill.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.minhe.seckill.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.minhe.seckill.dao.StockOrderMapperTest" />
-      <option name="METHOD_NAME" value="insertStockOrderTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockServiceImplTest.getStockById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StockServiceImplTest.getStockById (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SSM-SECOND-KILL-SERVICE" />
       <extension name="coverage">
         <pattern>
@@ -572,8 +598,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockServiceImplTest.getStockCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StockServiceImplTest.getStockCount (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SSM-SECOND-KILL-SERVICE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.minhe.seckill.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.minhe.seckill.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.minhe.seckill.service.impl.StockServiceImplTest" />
+      <option name="METHOD_NAME" value="getStockCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockServiceImplTest.getStockCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSM-SECOND-KILL-Manager" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.minhe.seckill.service.impl.*" />
@@ -590,11 +632,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StockServiceImplTest.getStockById (1)" />
+        <item itemvalue="JUnit.StockServiceImplTest.getStockCount (1)" />
+        <item itemvalue="JUnit.StockServiceImplTest.getStockCount" />
         <item itemvalue="JUnit.StockMapperTest.queryByIdTest" />
         <item itemvalue="JUnit.StockMapperTest.reduceCountTest (1)" />
-        <item itemvalue="JUnit.StockServiceImplTest.getStockById" />
-        <item itemvalue="JUnit.StockOrderMapperTest.insertStockOrderTest" />
-        <item itemvalue="JUnit.StockServiceImplTest.getStockCount" />
       </list>
     </recent_temporary>
   </component>
@@ -609,29 +651,11 @@
       <option name="presentableId" value="Default" />
       <updated>1555382082154</updated>
       <workItem from="1555382083462" duration="51631000" />
-      <workItem from="1555648267548" duration="1823000" />
+      <workItem from="1555648267548" duration="9133000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StockServiceImplTest_getStockCount - 2019.04.17 at 18h 55m 26s.xml">
-      <configuration name="StockServiceImplTest.getStockCount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StockServiceImplTest_getStockCount - 2019.04.17 at 18h 56m 08s.xml">
-      <configuration name="StockServiceImplTest.getStockCount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StockMapperTest_reduceCountTest_(1) - 2019.04.17 at 19h 10m 18s.xml">
-      <configuration name="StockMapperTest.reduceCountTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StockOrderMapperTest_insertStockOrderTest - 2019.04.17 at 19h 12m 26s.xml">
-      <configuration name="StockOrderMapperTest.insertStockOrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StockServiceImplTest_getStockById - 2019.04.18 at 09h 13m 42s.xml">
-      <configuration name="StockServiceImplTest.getStockById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StockMapperTest_queryByIdTest - 2019.04.19 at 10h 27m 31s.xml">
-      <configuration name="StockMapperTest.queryByIdTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StockMapperTest_queryByIdTest - 2019.04.19 at 10h 30m 12s.xml">
       <configuration name="StockMapperTest.queryByIdTest" configurationId="JUnit" />
     </history-entry>
@@ -644,23 +668,41 @@
     <history-entry file="StockMapperTest_queryByIdTest - 2019.04.19 at 11h 02m 58s.xml">
       <configuration name="StockMapperTest.queryByIdTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StockServiceImplTest_getStockCount - 2019.04.19 at 14h 09m 02s.xml">
+      <configuration name="StockServiceImplTest.getStockCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StockServiceImplTest_getStockCount - 2019.04.19 at 14h 10m 48s.xml">
+      <configuration name="StockServiceImplTest.getStockCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StockServiceImplTest_getStockCount_(1) - 2019.04.19 at 15h 41m 29s.xml">
+      <configuration name="StockServiceImplTest.getStockCount (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StockServiceImplTest_getStockById_(1) - 2019.04.19 at 15h 43m 53s.xml">
+      <configuration name="StockServiceImplTest.getStockById (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StockServiceImplTest_getStockCount_(1) - 2019.04.19 at 15h 45m 30s.xml">
+      <configuration name="StockServiceImplTest.getStockCount (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StockServiceImplTest_getStockById_(1) - 2019.04.19 at 15h 45m 38s.xml">
+      <configuration name="StockServiceImplTest.getStockById (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53454000" />
+    <option name="totallyTimeSpent" value="60764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7505423" visible="true" weight="0.17270789" />
-      <window_info id="Structure" order="1" sideWeight="0.2494577" side_tool="true" visible="true" weight="0.17270789" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75" visible="true" weight="0.17270789" />
+      <window_info id="Structure" order="1" sideWeight="0.25" side_tool="true" visible="true" weight="0.17270789" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.25813448" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.25813448" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -668,7 +710,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.25785482" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.2570499" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -719,68 +761,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/pojo/StockOrderExample.java" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/pojo/StockExample.java" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapping/StockOrderMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/mapper/Runwith.java" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-DAO/src/main/resources/spring/spring-dao.xml" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-DAO/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-DAO/src/test/java/com/minhe/seckill/mapper/StockMapperTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.jar!/org/springframework/test/context/BootstrapUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.minhe:SSM-SECOND-KILL:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.minhe:SSM-SECOND-KILL:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.minhe:SSM-SECOND-KILL:1.0-SNAPSHOT</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.12684766214178" x="456.0" y="604.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="130" column="24" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/properties/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/Generator.java" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/generator/StartServer.java" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/generatorConfig.xml" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/pojo/Stock.java" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/mapper/StockMapperTest.java" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/pojo/StockOrder.java" />
     <entry file="file://$PROJECT_DIR$/sql/seckill.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -841,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/StockService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dto/Exposer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -858,38 +831,6 @@
             <element signature="method#Exposer#2;class#Exposer#0" />
             <element signature="e#1486#1487#0" expanded="true" />
             <element signature="e#1520#1521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockOrderMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/StockServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -922,20 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockOrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -953,13 +880,201 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockMapperTest.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.2/mybatis-generator-core-1.3.2.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="40">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/StockOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/generator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockOrderMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapper/StockMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-327">
+          <caret line="271" column="2" selection-start-line="271" selection-start-column="2" selection-end-line="271" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/StockServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/StockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/StockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="976">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/api/impl/StockServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-POJO/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-TOOLS/src/main/java/com/minhe/seckill/dto/Exposer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-688">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-TOOLS/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-766">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/dao/StockMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/dao/StockMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/dao/StockOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -970,6 +1085,13 @@
           <OriginalElement>com.minhe:SSM-SECOND-KILL-SERVICE:1.0-SNAPSHOT</OriginalElement>
           <nodes>
             <node x="" y="">com.minhe:SSM-SECOND-KILL-SERVICE:1.0-SNAPSHOT</node>
+            <node x="" y="">com.minhe:SSM-SECOND-KILL-DAO:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.minhe:SSM-SECOND-KILL-DAO:jar:1.0-SNAPSHOT/com.minhe:SSM-SECOND-KILL-POJO:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.minhe:SSM-SECOND-KILL-DAO:jar:1.0-SNAPSHOT/org.mybatis:mybatis-spring:jar:2.0.0</node>
+            <node x="" y="">com.minhe:SSM-SECOND-KILL-DAO:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.5.0</node>
+            <node x="" y="">com.minhe:SSM-SECOND-KILL-DAO:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.1.9</node>
+            <node x="" y="">com.minhe:SSM-SECOND-KILL-DAO:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.47</node>
+            <node x="" y="">com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT</node>
             <node x="" y="">com.minhe:SSM-SECOND-KILL-API:jar:1.0-SNAPSHOT</node>
             <node x="" y="">junit:junit:jar:4.12</node>
             <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
@@ -993,12 +1115,9 @@
             <node x="" y="">org.springframework:spring-web:jar:4.3.10.RELEASE</node>
             <node x="" y="">org.springframework:spring-test:jar:4.3.10.RELEASE</node>
             <node x="" y="">org.springframework:spring-webmvc:jar:4.3.10.RELEASE</node>
-            <node x="" y="">org.mybatis:mybatis-spring:jar:2.0.0</node>
-            <node x="" y="">org.mybatis:mybatis:jar:3.5.0</node>
-            <node x="" y="">com.alibaba:druid:jar:1.1.9</node>
+            <node x="" y="">javax.annotation:javax.annotation-api:jar:1.3.2</node>
             <node x="" y="">org.springframework:spring-orm:jar:4.3.10.RELEASE</node>
             <node x="" y="">org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:5.1.47</node>
             <node x="" y="">redis.clients:jedis:jar:2.9.0</node>
             <node x="" y="">redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2</node>
             <node x="" y="">org.slf4j:slf4j-api:jar:1.7.25</node>
@@ -1013,79 +1132,84 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0798785117691725" x="-39.0" y="202.0" />
+          <settings layout="Hierarchic Group" zoom="0.6449221645663454" x="334.0" y="654.5" />
           <SelectedNodes />
           <Categories />
-          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.2/mybatis-generator-core-1.3.2.pom">
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-CONSUMER/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/api/impl/StockServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="169" column="25" selection-start-line="159" selection-start-column="12" selection-end-line="169" selection-end-column="25" />
+        <state relative-caret-position="390">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/Stock.java">
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="546">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapper/StockMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="206" column="11" lean-forward="true" selection-start-line="206" selection-start-column="11" selection-end-line="206" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/StockOrder.java">
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-POJO/src/main/java/com/minhe/seckill/pojo/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/generator.xml">
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="664">
+          <caret line="55" column="65" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
+          <folding>
+            <element signature="e#759#775#0" expanded="true" />
+            <element signature="e#813#826#0" expanded="true" />
+            <element signature="e#869#887#0" expanded="true" />
+            <element signature="e#930#948#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/pom.xml">
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5122">
-          <caret line="206" column="39" selection-start-line="206" selection-start-column="39" selection-end-line="206" selection-end-column="39" />
+        <state relative-caret-position="208">
+          <caret line="8" column="75" lean-forward="true" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/StockService.java">
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/StockService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="1118">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1156">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="192">
+          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/StockServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1140,12 +1264,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SSM-SECOND-KILL-SERVICE</last-edited>
+          <last-edited>Spring|SSM-SECOND-KILL-SERVICE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.4132353" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -6,14 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SSM-SECOND-KILL-WEB" />
         <module name="SSM-SECOND-KILL-CONSUMER" />
-        <module name="SSM-SECOND-KILL-SERVICE" />
+        <module name="SSM-SECOND-KILL-DAO" />
+        <module name="SSM-SECOND-KILL-TOOLS" />
+        <module name="SSM-SECOND-KILL-WEB" />
         <module name="SSM-SECOND-KILL-API" />
+        <module name="SSM-SECOND-KILL-SERVICE" />
+        <module name="SSM-SECOND-KILL-INTERFACE" />
+        <module name="SSM-SECOND-KILL-POJO" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="SSM-SECOND-KILL-DAO" target="1.5" />
+      <module name="SSM-SECOND-KILL-Manager" target="1.8" />
+      <module name="SSM-SECOND-KILL-SERVICE (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
