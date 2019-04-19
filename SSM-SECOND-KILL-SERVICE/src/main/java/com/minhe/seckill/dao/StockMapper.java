@@ -1,6 +1,6 @@
 package com.minhe.seckill.dao;
 
-import com.minhe.seckill.pojo.Stock;
+import com.minhe.seckill.api.pojo.Stock;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.Date;

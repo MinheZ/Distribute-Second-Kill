@@ -9,7 +9,7 @@
         values (#{id}, #{name}, #{userPhone})
     </insert>
 
-    <select id="queryByIdWithStock" resultType="com.minhe.seckill.pojo.StockOrder">
+    <select id="queryByIdWithStock" resultType="com.minhe.seckill.api.pojo.StockOrder">
         select
         so.id,
         so.name,

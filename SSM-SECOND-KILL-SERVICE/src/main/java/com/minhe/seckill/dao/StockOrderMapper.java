@@ -1,6 +1,6 @@
 package com.minhe.seckill.dao;
 
-import com.minhe.seckill.pojo.StockOrder;
+import com.minhe.seckill.api.pojo.StockOrder;
 import org.apache.ibatis.annotations.Param;
 
 /**

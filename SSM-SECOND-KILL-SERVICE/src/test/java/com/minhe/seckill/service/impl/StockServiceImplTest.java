@@ -1,8 +1,8 @@
 package com.minhe.seckill.service.impl;
 
-import com.minhe.seckill.dao.StockMapper;
-import com.minhe.seckill.dao.StockOrderMapper;
-import com.minhe.seckill.pojo.Stock;
+import com.minhe.seckill.api.pojo.Stock;
+import com.minhe.seckill.dto.Exposer;
+import com.minhe.seckill.service.StockService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -19,24 +19,27 @@ public class StockServiceImplTest {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
-    private StockMapper stockMapper;
-
-    @Autowired
-    private StockOrderMapper orderMapper;
+    private StockService stockService;
 
     private Integer id = 2;
     @Test
     public void getStockById() {
-        Stock stock = stockMapper.queryById(id);
+        Stock stock = stockService.getStockById(id);
         logger.info("stock={}", stock);
     }
 
     @Test
-    public void updateStockById() {
+    public void getStockCount() {
+        logger.info("count={}", stockService.getStockCount(id));
     }
 
     @Test
-    public void getStockCount() {
-        logger.info("count={}", stockMapper.queryById(id).getCount());
+    public void exposerStockUrl() {
+        Exposer exposer = stockService.exposerStockUrl(id);
+        if (exposer.isExposer()) {
+            logger.info("exposer={}", exposer);
+            long userPhone = 18161225484L;
+            String md5 = exposer.getMd5();
+        }
     }
 }

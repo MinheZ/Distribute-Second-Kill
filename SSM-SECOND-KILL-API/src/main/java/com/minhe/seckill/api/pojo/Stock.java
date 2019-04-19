@@ -1,4 +1,4 @@
-package com.minhe.seckill.pojo;
+package com.minhe.seckill.api.pojo;
 
 import java.io.Serializable;
 import java.util.Date;
