@@ -255,63 +255,63 @@ public class StockOrderExample {
             return (Criteria) this;
         }
 
-        public Criteria andUserPhoneIsNull() {
-            addCriterion("user_phone is null");
+        public Criteria andSidIsNull() {
+            addCriterion("sid is null");
             return (Criteria) this;
         }
 
-        public Criteria andUserPhoneIsNotNull() {
-            addCriterion("user_phone is not null");
+        public Criteria andSidIsNotNull() {
+            addCriterion("sid is not null");
             return (Criteria) this;
         }
 
-        public Criteria andUserPhoneEqualTo(Long value) {
-            addCriterion("user_phone =", value, "userPhone");
+        public Criteria andSidEqualTo(Integer value) {
+            addCriterion("sid =", value, "sid");
             return (Criteria) this;
         }
 
-        public Criteria andUserPhoneNotEqualTo(Long value) {
-            addCriterion("user_phone <>", value, "userPhone");
+        public Criteria andSidNotEqualTo(Integer value) {
+            addCriterion("sid <>", value, "sid");
             return (Criteria) this;
         }
 
-        public Criteria andUserPhoneGreaterThan(Long value) {
-            addCriterion("user_phone >", value, "userPhone");
+        public Criteria andSidGreaterThan(Integer value) {
+            addCriterion("sid >", value, "sid");
             return (Criteria) this;
         }
 
-        public Criteria andUserPhoneGreaterThanOrEqualTo(Long value) {
-            addCriterion("user_phone >=", value, "userPhone");
+        public Criteria andSidGreaterThanOrEqualTo(Integer value) {
+            addCriterion("sid >=", value, "sid");
             return (Criteria) this;
         }
 
-        public Criteria andUserPhoneLessThan(Long value) {
-            addCriterion("user_phone <", value, "userPhone");
+        public Criteria andSidLessThan(Integer value) {
+            addCriterion("sid <", value, "sid");
             return (Criteria) this;
         }
 
-        public Criteria andUserPhoneLessThanOrEqualTo(Long value) {
-            addCriterion("user_phone <=", value, "userPhone");
+        public Criteria andSidLessThanOrEqualTo(Integer value) {
+            addCriterion("sid <=", value, "sid");
             return (Criteria) this;
         }
 
-        public Criteria andUserPhoneIn(List<Long> values) {
-            addCriterion("user_phone in", values, "userPhone");
+        public Criteria andSidIn(List<Integer> values) {
+            addCriterion("sid in", values, "sid");
             return (Criteria) this;
         }
 
-        public Criteria andUserPhoneNotIn(List<Long> values) {
-            addCriterion("user_phone not in", values, "userPhone");
+        public Criteria andSidNotIn(List<Integer> values) {
+            addCriterion("sid not in", values, "sid");
             return (Criteria) this;
         }
 
-        public Criteria andUserPhoneBetween(Long value1, Long value2) {
-            addCriterion("user_phone between", value1, value2, "userPhone");
+        public Criteria andSidBetween(Integer value1, Integer value2) {
+            addCriterion("sid between", value1, value2, "sid");
             return (Criteria) this;
         }
 
-        public Criteria andUserPhoneNotBetween(Long value1, Long value2) {
-            addCriterion("user_phone not between", value1, value2, "userPhone");
+        public Criteria andSidNotBetween(Integer value1, Integer value2) {
+            addCriterion("sid not between", value1, value2, "sid");
             return (Criteria) this;
         }
 

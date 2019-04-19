@@ -10,6 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>SSM-SECOND-KILL-DAO</artifactId>
+    <packaging>jar</packaging>
+<!--    <version>${parent.version}</version>-->
 
     <dependencies>
         <dependency>

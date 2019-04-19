@@ -10,7 +10,8 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({"classpath:spring/spring-service.xml", "classpath:spring/spring-dao.xml"})
+@ContextConfiguration({"classpath:spring/spring-service.xml",
+        "classpath:spring/spring-dao.xml"})
 public class StockServiceImplTest {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -18,7 +19,7 @@ public class StockServiceImplTest {
     @Autowired
     private StockService stockService;
 
-    private Integer id = 2;
+    private Integer id = 1;
 
     @Test
     public void getStockCount() {

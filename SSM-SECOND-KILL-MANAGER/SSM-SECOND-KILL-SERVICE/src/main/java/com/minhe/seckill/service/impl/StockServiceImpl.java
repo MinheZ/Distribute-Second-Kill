@@ -2,7 +2,6 @@ package com.minhe.seckill.service.impl;
 
 
 import com.minhe.seckill.dao.StockMapper;
-import com.minhe.seckill.dao.StockOrderMapper;
 import com.minhe.seckill.pojo.Stock;
 import com.minhe.seckill.service.StockService;
 import org.slf4j.Logger;
@@ -26,10 +25,11 @@ public class StockServiceImpl implements StockService {
     @Autowired
     private StockMapper stockMapper;
 
-    @Autowired
-    private StockOrderMapper orderMapper;
+    @Override
+    public Integer getCurrentCount() throws Exception {
 
-    private final String salt = "hd*&&^d4(98IGUyd34";
+        return null;
+    }
 
     @Override
     public int getStockCount(Integer id) {
@@ -45,11 +45,5 @@ public class StockServiceImpl implements StockService {
     public int updateStockById(Stock stock) {
         // 会对字段进行判断再更新(如果为Null就忽略更新)，如果只想更新某一字段，可以用这个方法
         return stockMapper.updateByPrimaryKeySelective(stock);
-    }
-
-
-    @Override
-    public Integer getCurrentCount() throws Exception {
-        return null;
     }
 }

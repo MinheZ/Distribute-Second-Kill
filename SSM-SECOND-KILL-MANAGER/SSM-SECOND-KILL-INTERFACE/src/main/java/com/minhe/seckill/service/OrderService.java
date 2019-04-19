@@ -1,5 +1,7 @@
 package com.minhe.seckill.service;
 
+import com.minhe.seckill.exception.StockException;
+
 /**
  * @program: SSM-SECOND-KILL
  * @description: 对订单的处理API
@@ -16,6 +18,6 @@ public interface OrderService {
      * @Author: MinheZ
      * @Date: 2019/4/19
     **/
-    int createOrder(Integer id) throws Exception;
+    int createWrongOrder(Integer id) throws StockException;
 
 }
