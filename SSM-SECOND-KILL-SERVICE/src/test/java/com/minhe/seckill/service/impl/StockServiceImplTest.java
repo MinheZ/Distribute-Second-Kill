@@ -1,6 +1,5 @@
 package com.minhe.seckill.service.impl;
 
-import com.minhe.seckill.api.pojo.Stock;
 import com.minhe.seckill.dto.Exposer;
 import com.minhe.seckill.service.StockService;
 import org.junit.Test;

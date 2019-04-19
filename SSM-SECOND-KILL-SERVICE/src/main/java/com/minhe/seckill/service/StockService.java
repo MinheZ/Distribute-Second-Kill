@@ -1,9 +1,5 @@
 package com.minhe.seckill.service;
 
-import com.minhe.seckill.api.pojo.Stock;
-import com.minhe.seckill.dto.Exposer;
-
-
 /**
  * @program: SSM-SECOND-KILL
  * @description: StockService
@@ -13,11 +9,11 @@ import com.minhe.seckill.dto.Exposer;
 
 public interface StockService {
 
-    Stock getStockById(Integer id);
-
-    int getStockCount(Integer id);
-
-    Exposer exposerStockUrl(Integer id);
+//    Stock getStockById(Integer id);
+//
+//    int getStockCount(Integer id);
+//
+//    Exposer exposerStockUrl(Integer id);
 
 
 

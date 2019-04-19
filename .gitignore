@@ -1,4 +1,4 @@
-# maven ignore
+maven ignore
 target/
 *.jar
 *.war
@@ -6,7 +6,8 @@ target/
 *.tar
 *.tar.gz
 
-# eclipse ignore
+
+eclipse ignore
 .settings/
 .project
 .classpath
@@ -24,7 +25,10 @@ target/
 *.patch
 *.tmp
 
-# system ignore
+
+system ignore
 .DS_Store
 Thumbs.db
 
+
+pojo/*
