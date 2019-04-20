@@ -26,7 +26,7 @@ public class StockServiceImpl implements StockService {
     private StockMapper stockMapper;
 
     @Override
-    public Integer getCurrentCount() throws Exception {
+    public Integer getCurrentCount(Integer id) throws Exception {
 
         return null;
     }

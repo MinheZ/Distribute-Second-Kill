@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc07393a-3a31-44be-8a5b-ef92e0a4b632" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-dubbo-provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/java/com/minhe/seckill/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/resources/spring/spring-dubbo-consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/test/java/com/minhe/seckill/controller/IndexControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/StockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/OrderServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/OrderServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,25 +66,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/OrderService.java">
+        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/java/com/minhe/seckill/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="104">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/OrderServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/test/java/com/minhe/seckill/controller/IndexControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="286">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#createOrder#0;class#OrderServiceImpl#0" />
-                <element signature="docComment;method#saleStock#0;class#OrderServiceImpl#0" />
-                <element signature="method#saleStock#0;class#OrderServiceImpl#0" />
-                <element signature="docComment;method#checkStock#0;class#OrderServiceImpl#0" />
               </folding>
             </state>
           </provider>
@@ -85,48 +92,375 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/OrderServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="208">
+              <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
               <folding>
-                <element signature="e#767#768#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-service.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="85" column="54" selection-start-line="85" selection-start-column="54" selection-end-line="85" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/pom.xml">
+        <entry file="uml://MAVEN/com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>MAVEN</ID>
+              <OriginalElement>com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT</OriginalElement>
+              <nodes>
+                <node x="0.0" y="424.4664634146342">com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT</node>
+                <node x="267.0" y="366.4664634146342">com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT</node>
+                <node x="496.0" y="341.04786585365855">com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT/com.minhe:SSM-SECOND-KILL-POJO:jar:1.0-SNAPSHOT</node>
+                <node x="492.0" y="382.04786585365855">com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT/com.minhe:SSM-SECOND-KILL-TOOLS:jar:1.0-SNAPSHOT</node>
+                <node x="345.5" y="285.0">junit:junit:jar:4.12</node>
+                <node x="528.0" y="300.04786585365855">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+                <node x="338.0" y="867.2789634146342">com.alibaba:dubbo:jar:2.5.10</node>
+                <node x="546.0" y="846.7789634146342">com.alibaba:dubbo:jar:2.5.10/org.javassist:javassist:jar:3.20.0-GA</node>
+                <node x="556.0" y="887.7789634146342">com.alibaba:dubbo:jar:2.5.10/org.jboss.netty:netty:jar:3.2.5.Final</node>
+                <node x="326.0" y="183.0">org.apache.zookeeper:zookeeper:jar:3.4.6</node>
+                <node x="555.5" y="144.09146341463418">org.apache.zookeeper:zookeeper:jar:3.4.6/log4j:log4j:jar:1.2.16</node>
+                <node x="558.5" y="254.82301829268292">org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94</node>
+                <node x="556.0" y="185.09146341463418">org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final</node>
+                <node x="336.0" y="244.0">com.github.sgroschupf:zkclient:jar:0.1</node>
+                <node x="323.5" y="551.0">org.springframework:spring-core:jar:4.3.10.RELEASE</node>
+                <node x="516.5" y="592.6893292682927">org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+                <node x="319.0" y="616.5663109756098">org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
+                <node x="315.5" y="745.2789634146342">org.springframework:spring-context:jar:4.3.10.RELEASE</node>
+                <node x="537.5" y="670.2518292682927">org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE</node>
+                <node x="517.5" y="732.1268292682927">org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE</node>
+                <node x="324.5" y="806.2789634146342">org.springframework:spring-web:jar:4.3.10.RELEASE</node>
+                <node x="326.0" y="489.4664634146342">org.springframework:spring-test:jar:4.3.10.RELEASE</node>
+                <node x="327.0" y="407.4664634146342">javax.servlet:servlet-api:jar:2.5</node>
+                <node x="324.5" y="448.4664634146342">org.springframework:spring-orm:jar:4.3.10.RELEASE</node>
+                <node x="536.5" y="551.6893292682927">org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE</node>
+                <node x="544.0" y="453.5663109756098">org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE</node>
+                <node x="313.0" y="684.2789634146342">org.springframework:spring-webmvc:jar:4.3.10.RELEASE</node>
+                <node x="334.5" y="122.0">org.slf4j:slf4j-api:jar:1.7.25</node>
+                <node x="318.5" y="0.0">ch.qos.logback:logback-core:jar:1.2.3</node>
+                <node x="313.0" y="61.0">ch.qos.logback:logback-classic:jar:1.2.3</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+                  <point x="0.0" y="-10.5" />
+                  <point x="0.0" y="10.5" />
+                </edge>
+                <edge source="com.alibaba:dubbo:jar:2.5.10" target="com.alibaba:dubbo:jar:2.5.10/org.javassist:javassist:jar:3.20.0-GA">
+                  <point x="31.5" y="-5.25" />
+                  <point x="472.0" y="872.5289634146342" />
+                  <point x="492.0" y="857.2789634146342" />
+                  <point x="-36.0" y="-0.0" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+                  <point x="-54.0" y="-2.625" />
+                  <point x="217.0" y="753.1539634146342" />
+                  <point x="217.0" y="565.7" />
+                  <point x="-46.0" y="4.2000000000000455" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE">
+                  <point x="45.0" y="5.25" />
+                  <point x="472.0" y="464.2164634146342" />
+                  <point x="492.0" y="555.1893292682927" />
+                  <point x="-45.5" y="-7.0" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+                  <point x="-45.5" y="-0.0" />
+                  <point x="492.0" y="562.1893292682927" />
+                  <point x="472.0" y="557.3" />
+                  <point x="46.0" y="-4.2000000000000455" />
+                </edge>
+                <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.apache.zookeeper:zookeeper:jar:3.4.6/log4j:log4j:jar:1.2.16">
+                  <point x="43.5" y="-7.0" />
+                  <point x="472.0" y="186.5" />
+                  <point x="492.0" y="154.59146341463418" />
+                  <point x="-26.5" y="-0.0" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.25">
+                  <point x="83.5" y="-7.21875" />
+                  <point x="187.0" y="132.5" />
+                  <point x="-35.0" y="-0.0" />
+                </edge>
+                <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+                  <point x="24.0" y="5.25" />
+                  <point x="472.0" y="300.75" />
+                  <point x="492.0" y="310.54786585365855" />
+                  <point x="-54.0" y="-0.0" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT" target="com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT/com.minhe:SSM-SECOND-KILL-TOOLS:jar:1.0-SNAPSHOT">
+                  <point x="102.5" y="5.25" />
+                  <point x="-90.0" y="-0.0" />
+                </edge>
+                <edge source="org.springframework:spring-core:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2">
+                  <point x="46.0" y="-0.0" />
+                  <point x="472.0" y="561.5" />
+                  <point x="492.0" y="603.1893292682927" />
+                  <point x="-65.5" y="-0.0" />
+                </edge>
+                <edge source="com.alibaba:dubbo:jar:2.5.10" target="org.springframework:spring-web:jar:4.3.10.RELEASE">
+                  <point x="0.0" y="-10.5" />
+                  <point x="0.0" y="10.5" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+                  <point x="-54.0" y="-7.875" />
+                  <point x="227.0" y="747.9039634146342" />
+                  <point x="227.0" y="634.9413109756098" />
+                  <point x="-50.5" y="7.875" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.apache.zookeeper:zookeeper:jar:3.4.6">
+                  <point x="83.5" y="-5.90625" />
+                  <point x="187.0" y="193.5" />
+                  <point x="-43.5" y="-0.0" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+                  <point x="-38.0" y="-0.0" />
+                  <point x="492.0" y="464.0663109756098" />
+                  <point x="472.0" y="553.1" />
+                  <point x="46.0" y="-8.399999999999977" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT" target="com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT/com.minhe:SSM-SECOND-KILL-POJO:jar:1.0-SNAPSHOT">
+                  <point x="102.5" y="-5.25" />
+                  <point x="-86.0" y="-0.0" />
+                </edge>
+                <edge source="org.springframework:spring-beans:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+                  <point x="0.0" y="-10.5" />
+                  <point x="0.0" y="10.5" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+                  <point x="-45.5" y="7.0" />
+                  <point x="492.0" y="569.1893292682927" />
+                  <point x="472.0" y="627.0663109756098" />
+                  <point x="50.5" y="-0.0" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+                  <point x="-64.5" y="-7.0" />
+                  <point x="492.0" y="735.6268292682927" />
+                  <point x="472.0" y="569.9" />
+                  <point x="46.0" y="8.399999999999977" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+                  <point x="54.0" y="-5.25" />
+                  <point x="472.0" y="750.5289634146342" />
+                  <point x="492.0" y="688.6268292682927" />
+                  <point x="-44.5" y="7.875" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+                  <point x="-38.0" y="7.0" />
+                  <point x="492.0" y="471.0663109756098" />
+                  <point x="472.0" y="620.0663109756098" />
+                  <point x="50.5" y="-7.0" />
+                </edge>
+                <edge source="ch.qos.logback:logback-classic:jar:1.2.3" target="ch.qos.logback:logback-core:jar:1.2.3">
+                  <point x="0.0" y="-10.5" />
+                  <point x="0.0" y="10.5" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE">
+                  <point x="83.5" y="5.90625" />
+                  <point x="187.0" y="700.0289634146342" />
+                  <point x="-56.5" y="5.25" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+                  <point x="-44.5" y="-7.875" />
+                  <point x="492.0" y="672.8768292682927" />
+                  <point x="472.0" y="565.7" />
+                  <point x="46.0" y="4.2000000000000455" />
+                </edge>
+                <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE">
+                  <point x="0.0" y="10.5" />
+                  <point x="0.0" y="-10.5" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
+                  <point x="83.5" y="-0.65625" />
+                  <point x="187.0" y="417.9664634146342" />
+                  <point x="-42.5" y="-0.0" />
+                </edge>
+                <edge source="org.springframework:spring-test:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+                  <point x="0.0" y="10.5" />
+                  <point x="0.0" y="-10.5" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
+                  <point x="83.5" y="-3.28125" />
+                  <point x="187.0" y="295.5" />
+                  <point x="-24.0" y="-0.0" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+                  <point x="-45.0" y="-0.0" />
+                  <point x="247.0" y="458.9664634146342" />
+                  <point x="247.0" y="619.1913109756098" />
+                  <point x="-50.5" y="-7.875" />
+                </edge>
+                <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.slf4j:slf4j-api:jar:1.7.25">
+                  <point x="0.0" y="-10.5" />
+                  <point x="0.0" y="10.5" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT">
+                  <point x="83.5" y="-1.96875" />
+                  <point x="187.0" y="376.9664634146342" />
+                  <point x="-102.5" y="-0.0" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="ch.qos.logback:logback-classic:jar:1.2.3">
+                  <point x="83.5" y="-8.53125" />
+                  <point x="187.0" y="71.5" />
+                  <point x="-56.5" y="-0.0" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+                  <point x="83.5" y="4.59375" />
+                  <point x="187.0" y="624.4413109756098" />
+                  <point x="-50.5" y="-2.625" />
+                </edge>
+                <edge source="com.alibaba:dubbo:jar:2.5.10" target="org.springframework:spring-context:jar:4.3.10.RELEASE">
+                  <point x="-31.5" y="-7.0" />
+                  <point x="197.0" y="870.7789634146342" />
+                  <point x="197.0" y="763.6539634146342" />
+                  <point x="-54.0" y="7.875" />
+                </edge>
+                <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+                  <point x="-56.5" y="-5.25" />
+                  <point x="237.0" y="689.5289634146342" />
+                  <point x="237.0" y="569.9" />
+                  <point x="-46.0" y="8.399999999999977" />
+                </edge>
+                <edge source="com.github.sgroschupf:zkclient:jar:0.1" target="org.apache.zookeeper:zookeeper:jar:3.4.6">
+                  <point x="0.0" y="-10.5" />
+                  <point x="0.0" y="10.5" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+                  <point x="83.5" y="3.28125" />
+                  <point x="187.0" y="557.3" />
+                  <point x="-46.0" y="-4.2000000000000455" />
+                </edge>
+                <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE">
+                  <point x="0.0" y="-10.5" />
+                  <point x="0.0" y="10.5" />
+                </edge>
+                <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final">
+                  <point x="43.5" y="-0.0" />
+                  <point x="472.0" y="193.5" />
+                  <point x="492.0" y="195.59146341463418" />
+                  <point x="-26.0" y="-0.0" />
+                </edge>
+                <edge source="ch.qos.logback:logback-classic:jar:1.2.3" target="org.slf4j:slf4j-api:jar:1.7.25">
+                  <point x="0.0" y="10.5" />
+                  <point x="0.0" y="-10.5" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.3.10.RELEASE">
+                  <point x="83.5" y="1.96875" />
+                  <point x="187.0" y="499.9664634146342" />
+                  <point x="-43.5" y="-0.0" />
+                </edge>
+                <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94" target="junit:junit:jar:4.12">
+                  <point x="-23.5" y="5.25" />
+                  <point x="492.0" y="270.57301829268295" />
+                  <point x="472.0" y="290.25" />
+                  <point x="24.0" y="-5.25" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-orm:jar:4.3.10.RELEASE">
+                  <point x="83.5" y="0.65625" />
+                  <point x="187.0" y="451.9664634146342" />
+                  <point x="-45.0" y="-7.0" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.10.RELEASE">
+                  <point x="83.5" y="8.53125" />
+                  <point x="187.0" y="822.0289634146342" />
+                  <point x="-45.0" y="5.25" />
+                </edge>
+                <edge source="com.alibaba:dubbo:jar:2.5.10" target="com.alibaba:dubbo:jar:2.5.10/org.jboss.netty:netty:jar:3.2.5.Final">
+                  <point x="31.5" y="5.25" />
+                  <point x="472.0" y="883.0289634146342" />
+                  <point x="492.0" y="898.2789634146342" />
+                  <point x="-26.0" y="-0.0" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE">
+                  <point x="45.0" y="-5.25" />
+                  <point x="472.0" y="453.7164634146342" />
+                  <point x="492.0" y="457.0663109756098" />
+                  <point x="-38.0" y="-7.0" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.3.10.RELEASE">
+                  <point x="83.5" y="7.21875" />
+                  <point x="187.0" y="758.4039634146342" />
+                  <point x="-54.0" y="2.625" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="ch.qos.logback:logback-core:jar:1.2.3">
+                  <point x="83.5" y="-9.84375" />
+                  <point x="187.0" y="10.5" />
+                  <point x="-51.0" y="-0.0" />
+                </edge>
+                <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+                  <point x="-45.0" y="-5.25" />
+                  <point x="207.0" y="811.5289634146342" />
+                  <point x="207.0" y="561.5" />
+                  <point x="-46.0" y="-0.0" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE">
+                  <point x="0.0" y="-10.5" />
+                  <point x="0.0" y="10.5" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="com.alibaba:dubbo:jar:2.5.10">
+                  <point x="83.5" y="9.84375" />
+                  <point x="187.0" y="884.7789634146342" />
+                  <point x="-31.5" y="7.0" />
+                </edge>
+                <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE">
+                  <point x="56.5" y="5.25" />
+                  <point x="472.0" y="700.0289634146342" />
+                  <point x="492.0" y="742.6268292682927" />
+                  <point x="-64.5" y="-0.0" />
+                </edge>
+                <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+                  <point x="56.5" y="-5.25" />
+                  <point x="472.0" y="689.5289634146342" />
+                  <point x="492.0" y="683.3768292682927" />
+                  <point x="-44.5" y="2.625" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+                  <point x="-44.5" y="-2.625" />
+                  <point x="492.0" y="678.1268292682927" />
+                  <point x="472.0" y="634.0663109756098" />
+                  <point x="50.5" y="7.0" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+                  <point x="-45.0" y="7.0" />
+                  <point x="257.0" y="465.9664634146342" />
+                  <point x="257.0" y="553.1" />
+                  <point x="-46.0" y="-8.399999999999977" />
+                </edge>
+                <edge source="com.alibaba:dubbo:jar:2.5.10" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+                  <point x="-31.5" y="-0.0" />
+                  <point x="187.0" y="877.7789634146342" />
+                  <point x="187.0" y="629.6913109756098" />
+                  <point x="-50.5" y="2.625" />
+                </edge>
+                <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94">
+                  <point x="43.5" y="7.0" />
+                  <point x="472.0" y="200.5" />
+                  <point x="492.0" y="260.07301829268295" />
+                  <point x="-23.5" y="-5.25" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE">
+                  <point x="54.0" y="5.25" />
+                  <point x="472.0" y="761.0289634146342" />
+                  <point x="492.0" y="749.6268292682927" />
+                  <point x="-64.5" y="7.0" />
+                </edge>
+                <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="com.github.sgroschupf:zkclient:jar:0.1">
+                  <point x="83.5" y="-4.59375" />
+                  <point x="187.0" y="254.5" />
+                  <point x="-33.5" y="-0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7029723991507429" x="236.6467433028114" y="438.80288052216474" />
+              <SelectedNodes />
+              <Categories />
+              <VISIBILITY>All</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-WEB/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4030">
-              <caret line="185" column="35" selection-start-line="185" selection-start-column="35" selection-end-line="185" selection-end-column="35" />
+            <state relative-caret-position="370">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -148,6 +482,7 @@
       <find>zookeeper</find>
       <find>dubbo</find>
       <find>zkclient</find>
+      <find>servlet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,13 +491,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/generator/StartServer.java" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/mapper/StockMapperTest.java" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/pojo/Stock.java" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/pojo/StockOrder.java" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-service.xml" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dto/Exposer.java" />
@@ -189,8 +517,6 @@
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/src/main/java/com/minhe/seckill/dao/StockOrderMapper.java" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-TOOLS/src/main/java/com/minhe/seckill/exception/SoldOutException.java" />
         <option value="$PROJECT_DIR$/sql/seckill.sql" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/StockService.java" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/OrderService.java" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/properties/dubbo.properties" />
@@ -198,15 +524,24 @@
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-POJO/pom.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/pom.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-DAO/pom.xml" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/OrderServiceImplTest.java" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/StockServiceImplTest.java" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-CONSUMER/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/pom.xml" />
         <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-service.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/StockService.java" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/java/com/minhe/seckill/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/resources/spring/spring-dubbo-consumer" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/OrderServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/test/java/com/minhe/seckill/controller/IndexControllerTest.java" />
       </list>
     </option>
   </component>
@@ -238,30 +573,17 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SSM-SECOND-KILL-MANAGER" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="SSM-SECOND-KILL-WEB" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SSM-SECOND-KILL-MANAGER" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="SSM-SECOND-KILL-WEB" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SSM-SECOND-KILL-SERVICE" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SSM-SECOND-KILL-SERVICE" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SSM-SECOND-KILL-TOOLS" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SSM-SECOND-KILL-TOOLS" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="SSM-SECOND-KILL-WEB" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -562,6 +884,40 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM-SECOND-KILL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-SECOND-KILL" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-SECOND-KILL-WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -577,16 +933,17 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24269006" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.minhe.seckill.controller" />
       <recent name="com.minhe.seckill.service.impl" />
       <recent name="com.minhe.seckill.dao" />
       <recent name="com.minhe.seckill.mapper" />
@@ -606,11 +963,11 @@
       <recent name="com.minhe.seckill.generator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-WEB\src\main\resources" />
       <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-WEB\src\main" />
       <recent name="E:\ZMH\Java\SSM-SECOND-KILL\lib" />
       <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-MANAGER\SSM-SECOND-KILL-DAO\src\main\java\com\minhe\seckill\dao" />
       <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-MANAGER\SSM-SECOND-KILL-POJO\src\main\java\com\minhe\seckill\pojo" />
-      <recent name="E:\ZMH\Java\SSM-SECOND-KILL\SSM-SECOND-KILL-MANAGER\SSM-SECOND-KILL-TOOLS\src\main\java" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.minhe.seckill.service.impl" />
@@ -629,7 +986,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.seckill-manager">
+  <component name="RunManager" selected="Maven.seckill-web">
+    <configuration name="IndexControllerTest.getStockCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSM-SECOND-KILL-WEB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.minhe.seckill.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.minhe.seckill.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.minhe.seckill.controller.IndexControllerTest" />
+      <option name="METHOD_NAME" value="getStockCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderServiceImplTest.createWrongOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SSM-SECOND-KILL-SERVICE" />
       <extension name="coverage">
@@ -646,17 +1019,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockMapperTest.queryByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSM-SECOND-KILL-Manager" />
+    <configuration name="OrderServiceImplTest.runTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSM-SECOND-KILL-SERVICE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.minhe.seckill.dao.*" />
+          <option name="PATTERN" value="com.minhe.seckill.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.minhe.seckill.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.minhe.seckill.dao.StockMapperTest" />
-      <option name="METHOD_NAME" value="queryByIdTest" />
+      <option name="PACKAGE_NAME" value="com.minhe.seckill.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.minhe.seckill.service.impl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="runTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -680,22 +1053,6 @@
     </configuration>
     <configuration name="StockServiceImplTest.getStockCount (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SSM-SECOND-KILL-SERVICE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.minhe.seckill.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.minhe.seckill.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.minhe.seckill.service.impl.StockServiceImplTest" />
-      <option name="METHOD_NAME" value="getStockCount" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockServiceImplTest.getStockCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSM-SECOND-KILL-Manager" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.minhe.seckill.service.impl.*" />
@@ -736,21 +1093,48 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="seckill-web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/SSM-SECOND-KILL-WEB" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="JUnit.OrderServiceImplTest.createWrongOrder" />
-      <item itemvalue="JUnit.StockMapperTest.queryByIdTest" />
       <item itemvalue="JUnit.StockServiceImplTest.getStockById (1)" />
-      <item itemvalue="JUnit.StockServiceImplTest.getStockCount" />
       <item itemvalue="JUnit.StockServiceImplTest.getStockCount (1)" />
+      <item itemvalue="JUnit.OrderServiceImplTest.runTest" />
       <item itemvalue="Maven.seckill-manager" />
+      <item itemvalue="Maven.seckill-web" />
+      <item itemvalue="JUnit.IndexControllerTest.getStockCount" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IndexControllerTest.getStockCount" />
         <item itemvalue="JUnit.OrderServiceImplTest.createWrongOrder" />
+        <item itemvalue="JUnit.OrderServiceImplTest.runTest" />
         <item itemvalue="JUnit.StockServiceImplTest.getStockById (1)" />
         <item itemvalue="JUnit.StockServiceImplTest.getStockCount (1)" />
-        <item itemvalue="JUnit.StockServiceImplTest.getStockCount" />
-        <item itemvalue="JUnit.StockMapperTest.queryByIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -766,47 +1150,48 @@
       <updated>1555382082154</updated>
       <workItem from="1555382083462" duration="51631000" />
       <workItem from="1555648267548" duration="16189000" />
-      <workItem from="1555668739620" duration="14328000" />
+      <workItem from="1555668739620" duration="21903000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StockServiceImplTest_getStockById_(1) - 2019.04.19 at 20h 27m 02s.xml">
-      <configuration name="StockServiceImplTest.getStockById (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StockServiceImplTest_getStockById_(1) - 2019.04.19 at 20h 27m 37s.xml">
-      <configuration name="StockServiceImplTest.getStockById (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StockServiceImplTest_getStockById_(1) - 2019.04.19 at 20h 35m 14s.xml">
-      <configuration name="StockServiceImplTest.getStockById (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StockServiceImplTest_getStockById_(1) - 2019.04.19 at 20h 36m 35s.xml">
-      <configuration name="StockServiceImplTest.getStockById (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StockServiceImplTest_getStockById_(1) - 2019.04.19 at 20h 38m 39s.xml">
-      <configuration name="StockServiceImplTest.getStockById (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StockServiceImplTest_getStockById_(1) - 2019.04.19 at 20h 39m 37s.xml">
-      <configuration name="StockServiceImplTest.getStockById (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StockServiceImplTest_getStockById_(1) - 2019.04.19 at 20h 56m 59s.xml">
-      <configuration name="StockServiceImplTest.getStockById (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StockServiceImplTest_getStockById_(1) - 2019.04.19 at 21h 04m 56s.xml">
-      <configuration name="StockServiceImplTest.getStockById (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderServiceImplTest_createWrongOrder - 2019.04.20 at 09h 50m 56s.xml">
+    <history-entry file="OrderServiceImplTest_createWrongOrder - 2019.04.20 at 10h 49m 00s.xml">
       <configuration name="OrderServiceImplTest.createWrongOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrderServiceImplTest_createWrongOrder - 2019.04.20 at 09h 53m 16s.xml">
+    <history-entry file="OrderServiceImplTest_createWrongOrder - 2019.04.20 at 10h 49m 10s.xml">
+      <configuration name="OrderServiceImplTest.createWrongOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderServiceImplTest_createWrongOrder - 2019.04.20 at 10h 49m 41s.xml">
+      <configuration name="OrderServiceImplTest.createWrongOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderServiceImplTest_createWrongOrder - 2019.04.20 at 10h 50m 50s.xml">
+      <configuration name="OrderServiceImplTest.createWrongOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IndexControllerTest_getStockCount - 2019.04.20 at 12h 41m 44s.xml">
+      <configuration name="IndexControllerTest.getStockCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IndexControllerTest_getStockCount - 2019.04.20 at 12h 42m 12s.xml">
+      <configuration name="IndexControllerTest.getStockCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IndexControllerTest_getStockCount - 2019.04.20 at 12h 43m 11s.xml">
+      <configuration name="IndexControllerTest.getStockCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IndexControllerTest_getStockCount - 2019.04.20 at 12h 44m 21s.xml">
+      <configuration name="IndexControllerTest.getStockCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IndexControllerTest_getStockCount - 2019.04.20 at 12h 45m 13s.xml">
+      <configuration name="IndexControllerTest.getStockCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderServiceImplTest_createWrongOrder - 2019.04.20 at 12h 52m 04s.xml">
       <configuration name="OrderServiceImplTest.createWrongOrder" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82148000" />
+    <option name="totallyTimeSpent" value="89723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77624786" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="1" sideWeight="0.22375216" side_tool="true" weight="0.17430703" />
@@ -816,7 +1201,7 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.41323212" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3275488" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -833,7 +1218,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.19029851" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.20788912" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.29957357" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -875,24 +1260,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/dto/JasonSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.2/mybatis-generator-core-1.3.2.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/Stock.java" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-API/src/main/java/com/minhe/seckill/api/pojo/StockOrder.java" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/generator.xml" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockOrderMapper.java" />
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockMapperTest.java" />
     <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/dao/StockOrderMapperTest.java" />
     <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/resources/mapper/StockMapper.xml" />
     <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/dao/StockMapper.java" />
@@ -941,13 +1308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/StockService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-TOOLS/src/main/java/com/minhe/seckill/exception/SoldOutException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -965,27 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/ApacheJMeter_java.jar!/org/apache/jmeter/protocol/java/sampler/AbstractJavaSamplerClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,62 +1425,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
-          <folding>
-            <element signature="e#759#775#0" expanded="true" />
-            <element signature="e#813#826#0" expanded="true" />
-            <element signature="e#869#887#0" expanded="true" />
-            <element signature="e#930#948#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="85" column="54" selection-start-line="85" selection-start-column="54" selection-end-line="85" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11">
           <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#createOrder#0;class#OrderServiceImpl#0" />
-            <element signature="docComment;method#saleStock#0;class#OrderServiceImpl#0" />
-            <element signature="method#saleStock#0;class#OrderServiceImpl#0" />
-            <element signature="docComment;method#checkStock#0;class#OrderServiceImpl#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/OrderServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1215,13 +1502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
@@ -1229,10 +1509,494 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ApacheJMeter_java.jar!/org/apache/jmeter/protocol/java/sampler/AbstractJavaSamplerClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="40" column="11" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#createOrder#0;class#OrderServiceImpl#0" />
+            <element signature="docComment;method#saleStock#0;class#OrderServiceImpl#0" />
+            <element signature="method#saleStock#0;class#OrderServiceImpl#0" />
+            <element signature="docComment;method#checkStock#0;class#OrderServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/resources/spring/spring-dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-INTERFACE/src/main/java/com/minhe/seckill/service/StockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/main/java/com/minhe/seckill/service/impl/StockServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4030">
-          <caret line="185" column="35" selection-start-line="185" selection-start-column="35" selection-end-line="185" selection-end-column="35" />
+        <state relative-caret-position="-2938">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1274">
+          <caret line="241" column="25" lean-forward="true" selection-start-line="241" selection-start-column="25" selection-end-line="241" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/resources/spring/spring-dubbo-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/main/java/com/minhe/seckill/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-WEB/src/test/java/com/minhe/seckill/controller/IndexControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-WEB/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM-SECOND-KILL-MANAGER/SSM-SECOND-KILL-SERVICE/src/test/java/com/minhe/seckill/service/impl/OrderServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="424.4664634146342">com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT</node>
+            <node x="267.0" y="366.4664634146342">com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT</node>
+            <node x="496.0" y="341.04786585365855">com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT/com.minhe:SSM-SECOND-KILL-POJO:jar:1.0-SNAPSHOT</node>
+            <node x="492.0" y="382.04786585365855">com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT/com.minhe:SSM-SECOND-KILL-TOOLS:jar:1.0-SNAPSHOT</node>
+            <node x="345.5" y="285.0">junit:junit:jar:4.12</node>
+            <node x="528.0" y="300.04786585365855">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="338.0" y="867.2789634146342">com.alibaba:dubbo:jar:2.5.10</node>
+            <node x="546.0" y="846.7789634146342">com.alibaba:dubbo:jar:2.5.10/org.javassist:javassist:jar:3.20.0-GA</node>
+            <node x="556.0" y="887.7789634146342">com.alibaba:dubbo:jar:2.5.10/org.jboss.netty:netty:jar:3.2.5.Final</node>
+            <node x="326.0" y="183.0">org.apache.zookeeper:zookeeper:jar:3.4.6</node>
+            <node x="555.5" y="144.09146341463418">org.apache.zookeeper:zookeeper:jar:3.4.6/log4j:log4j:jar:1.2.16</node>
+            <node x="558.5" y="254.82301829268292">org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94</node>
+            <node x="556.0" y="185.09146341463418">org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final</node>
+            <node x="336.0" y="244.0">com.github.sgroschupf:zkclient:jar:0.1</node>
+            <node x="323.5" y="551.0">org.springframework:spring-core:jar:4.3.10.RELEASE</node>
+            <node x="516.5" y="592.6893292682927">org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="319.0" y="616.5663109756098">org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
+            <node x="315.5" y="745.2789634146342">org.springframework:spring-context:jar:4.3.10.RELEASE</node>
+            <node x="537.5" y="670.2518292682927">org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE</node>
+            <node x="517.5" y="732.1268292682927">org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE</node>
+            <node x="324.5" y="806.2789634146342">org.springframework:spring-web:jar:4.3.10.RELEASE</node>
+            <node x="326.0" y="489.4664634146342">org.springframework:spring-test:jar:4.3.10.RELEASE</node>
+            <node x="327.0" y="407.4664634146342">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="324.5" y="448.4664634146342">org.springframework:spring-orm:jar:4.3.10.RELEASE</node>
+            <node x="536.5" y="551.6893292682927">org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE</node>
+            <node x="544.0" y="453.5663109756098">org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE</node>
+            <node x="313.0" y="684.2789634146342">org.springframework:spring-webmvc:jar:4.3.10.RELEASE</node>
+            <node x="334.5" y="122.0">org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="318.5" y="0.0">ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="313.0" y="61.0">ch.qos.logback:logback-classic:jar:1.2.3</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="com.alibaba:dubbo:jar:2.5.10" target="com.alibaba:dubbo:jar:2.5.10/org.javassist:javassist:jar:3.20.0-GA">
+              <point x="31.5" y="-5.25" />
+              <point x="472.0" y="872.5289634146342" />
+              <point x="492.0" y="857.2789634146342" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="-54.0" y="-2.625" />
+              <point x="217.0" y="753.1539634146342" />
+              <point x="217.0" y="565.7" />
+              <point x="-46.0" y="4.2000000000000455" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE">
+              <point x="45.0" y="5.25" />
+              <point x="472.0" y="464.2164634146342" />
+              <point x="492.0" y="555.1893292682927" />
+              <point x="-45.5" y="-7.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="-45.5" y="-0.0" />
+              <point x="492.0" y="562.1893292682927" />
+              <point x="472.0" y="557.3" />
+              <point x="46.0" y="-4.2000000000000455" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.apache.zookeeper:zookeeper:jar:3.4.6/log4j:log4j:jar:1.2.16">
+              <point x="43.5" y="-7.0" />
+              <point x="472.0" y="186.5" />
+              <point x="492.0" y="154.59146341463418" />
+              <point x="-26.5" y="-0.0" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="83.5" y="-7.21875" />
+              <point x="187.0" y="132.5" />
+              <point x="-35.0" y="-0.0" />
+            </edge>
+            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="24.0" y="5.25" />
+              <point x="472.0" y="300.75" />
+              <point x="492.0" y="310.54786585365855" />
+              <point x="-54.0" y="-0.0" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT" target="com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT/com.minhe:SSM-SECOND-KILL-TOOLS:jar:1.0-SNAPSHOT">
+              <point x="102.5" y="5.25" />
+              <point x="-90.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-core:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2">
+              <point x="46.0" y="-0.0" />
+              <point x="472.0" y="561.5" />
+              <point x="492.0" y="603.1893292682927" />
+              <point x="-65.5" y="-0.0" />
+            </edge>
+            <edge source="com.alibaba:dubbo:jar:2.5.10" target="org.springframework:spring-web:jar:4.3.10.RELEASE">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="-54.0" y="-7.875" />
+              <point x="227.0" y="747.9039634146342" />
+              <point x="227.0" y="634.9413109756098" />
+              <point x="-50.5" y="7.875" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.apache.zookeeper:zookeeper:jar:3.4.6">
+              <point x="83.5" y="-5.90625" />
+              <point x="187.0" y="193.5" />
+              <point x="-43.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="-38.0" y="-0.0" />
+              <point x="492.0" y="464.0663109756098" />
+              <point x="472.0" y="553.1" />
+              <point x="46.0" y="-8.399999999999977" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT" target="com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT/com.minhe:SSM-SECOND-KILL-POJO:jar:1.0-SNAPSHOT">
+              <point x="102.5" y="-5.25" />
+              <point x="-86.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-beans:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="-45.5" y="7.0" />
+              <point x="492.0" y="569.1893292682927" />
+              <point x="472.0" y="627.0663109756098" />
+              <point x="50.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="-64.5" y="-7.0" />
+              <point x="492.0" y="735.6268292682927" />
+              <point x="472.0" y="569.9" />
+              <point x="46.0" y="8.399999999999977" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="54.0" y="-5.25" />
+              <point x="472.0" y="750.5289634146342" />
+              <point x="492.0" y="688.6268292682927" />
+              <point x="-44.5" y="7.875" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="-38.0" y="7.0" />
+              <point x="492.0" y="471.0663109756098" />
+              <point x="472.0" y="620.0663109756098" />
+              <point x="50.5" y="-7.0" />
+            </edge>
+            <edge source="ch.qos.logback:logback-classic:jar:1.2.3" target="ch.qos.logback:logback-core:jar:1.2.3">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE">
+              <point x="83.5" y="5.90625" />
+              <point x="187.0" y="700.0289634146342" />
+              <point x="-56.5" y="5.25" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="-44.5" y="-7.875" />
+              <point x="492.0" y="672.8768292682927" />
+              <point x="472.0" y="565.7" />
+              <point x="46.0" y="4.2000000000000455" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
+              <point x="83.5" y="-0.65625" />
+              <point x="187.0" y="417.9664634146342" />
+              <point x="-42.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
+              <point x="83.5" y="-3.28125" />
+              <point x="187.0" y="295.5" />
+              <point x="-24.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="-45.0" y="-0.0" />
+              <point x="247.0" y="458.9664634146342" />
+              <point x="247.0" y="619.1913109756098" />
+              <point x="-50.5" y="-7.875" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="com.minhe:SSM-SECOND-KILL-INTERFACE:jar:1.0-SNAPSHOT">
+              <point x="83.5" y="-1.96875" />
+              <point x="187.0" y="376.9664634146342" />
+              <point x="-102.5" y="-0.0" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="ch.qos.logback:logback-classic:jar:1.2.3">
+              <point x="83.5" y="-8.53125" />
+              <point x="187.0" y="71.5" />
+              <point x="-56.5" y="-0.0" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="83.5" y="4.59375" />
+              <point x="187.0" y="624.4413109756098" />
+              <point x="-50.5" y="-2.625" />
+            </edge>
+            <edge source="com.alibaba:dubbo:jar:2.5.10" target="org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="-31.5" y="-7.0" />
+              <point x="197.0" y="870.7789634146342" />
+              <point x="197.0" y="763.6539634146342" />
+              <point x="-54.0" y="7.875" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="-56.5" y="-5.25" />
+              <point x="237.0" y="689.5289634146342" />
+              <point x="237.0" y="569.9" />
+              <point x="-46.0" y="8.399999999999977" />
+            </edge>
+            <edge source="com.github.sgroschupf:zkclient:jar:0.1" target="org.apache.zookeeper:zookeeper:jar:3.4.6">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="83.5" y="3.28125" />
+              <point x="187.0" y="557.3" />
+              <point x="-46.0" y="-4.2000000000000455" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final">
+              <point x="43.5" y="-0.0" />
+              <point x="472.0" y="193.5" />
+              <point x="492.0" y="195.59146341463418" />
+              <point x="-26.0" y="-0.0" />
+            </edge>
+            <edge source="ch.qos.logback:logback-classic:jar:1.2.3" target="org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.3.10.RELEASE">
+              <point x="83.5" y="1.96875" />
+              <point x="187.0" y="499.9664634146342" />
+              <point x="-43.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94" target="junit:junit:jar:4.12">
+              <point x="-23.5" y="5.25" />
+              <point x="492.0" y="270.57301829268295" />
+              <point x="472.0" y="290.25" />
+              <point x="24.0" y="-5.25" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-orm:jar:4.3.10.RELEASE">
+              <point x="83.5" y="0.65625" />
+              <point x="187.0" y="451.9664634146342" />
+              <point x="-45.0" y="-7.0" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.10.RELEASE">
+              <point x="83.5" y="8.53125" />
+              <point x="187.0" y="822.0289634146342" />
+              <point x="-45.0" y="5.25" />
+            </edge>
+            <edge source="com.alibaba:dubbo:jar:2.5.10" target="com.alibaba:dubbo:jar:2.5.10/org.jboss.netty:netty:jar:3.2.5.Final">
+              <point x="31.5" y="5.25" />
+              <point x="472.0" y="883.0289634146342" />
+              <point x="492.0" y="898.2789634146342" />
+              <point x="-26.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE">
+              <point x="45.0" y="-5.25" />
+              <point x="472.0" y="453.7164634146342" />
+              <point x="492.0" y="457.0663109756098" />
+              <point x="-38.0" y="-7.0" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="83.5" y="7.21875" />
+              <point x="187.0" y="758.4039634146342" />
+              <point x="-54.0" y="2.625" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="ch.qos.logback:logback-core:jar:1.2.3">
+              <point x="83.5" y="-9.84375" />
+              <point x="187.0" y="10.5" />
+              <point x="-51.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="-45.0" y="-5.25" />
+              <point x="207.0" y="811.5289634146342" />
+              <point x="207.0" y="561.5" />
+              <point x="-46.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="com.alibaba:dubbo:jar:2.5.10">
+              <point x="83.5" y="9.84375" />
+              <point x="187.0" y="884.7789634146342" />
+              <point x="-31.5" y="7.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE">
+              <point x="56.5" y="5.25" />
+              <point x="472.0" y="700.0289634146342" />
+              <point x="492.0" y="742.6268292682927" />
+              <point x="-64.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="56.5" y="-5.25" />
+              <point x="472.0" y="689.5289634146342" />
+              <point x="492.0" y="683.3768292682927" />
+              <point x="-44.5" y="2.625" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="-44.5" y="-2.625" />
+              <point x="492.0" y="678.1268292682927" />
+              <point x="472.0" y="634.0663109756098" />
+              <point x="50.5" y="7.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="-45.0" y="7.0" />
+              <point x="257.0" y="465.9664634146342" />
+              <point x="257.0" y="553.1" />
+              <point x="-46.0" y="-8.399999999999977" />
+            </edge>
+            <edge source="com.alibaba:dubbo:jar:2.5.10" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="-31.5" y="-0.0" />
+              <point x="187.0" y="877.7789634146342" />
+              <point x="187.0" y="629.6913109756098" />
+              <point x="-50.5" y="2.625" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94">
+              <point x="43.5" y="7.0" />
+              <point x="472.0" y="200.5" />
+              <point x="492.0" y="260.07301829268295" />
+              <point x="-23.5" y="-5.25" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE">
+              <point x="54.0" y="5.25" />
+              <point x="472.0" y="761.0289634146342" />
+              <point x="492.0" y="749.6268292682927" />
+              <point x="-64.5" y="7.0" />
+            </edge>
+            <edge source="com.minhe:SSM-SECOND-KILL-WEB:1.0-SNAPSHOT" target="com.github.sgroschupf:zkclient:jar:0.1">
+              <point x="83.5" y="-4.59375" />
+              <point x="187.0" y="254.5" />
+              <point x="-33.5" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7029723991507429" x="236.6467433028114" y="438.80288052216474" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -1247,7 +2011,6 @@
             <option name="proportions">
               <list>
                 <option value="0.4132353" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1290,7 +2053,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SSM-SECOND-KILL-WEB</last-edited>
+          <last-edited>SSM-SECOND-KILL</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

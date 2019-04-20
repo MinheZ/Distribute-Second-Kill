@@ -11,17 +11,11 @@
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
 
-    <context:component-scan base-package="com.minhe.seckill.service.impl"/>
+    <dubbo:application name="seckillManagerWeb"/>
 
-<!--    事务管理器-->
-    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-<!--        注入数据库连接池-->
-        <property name="dataSource" ref="dataSource"/>
-    </bean>
+    <dubbo:registry protocol="zookeeper" address="192.168.1.127:2181"/>
 
-<!--    配置基于注解的声明式事务-->
-    <tx:annotation-driven transaction-manager="transactionManager"/>
-
-
+    <dubbo:reference interface="com.minhe.seckill.service.OrderService" id="orderService"/>
+    <dubbo:reference interface="com.minhe.seckill.service.StockService" id="stockService"/>
 
 </beans>

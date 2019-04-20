@@ -18,7 +18,7 @@ public interface StockService {
      * @Author: MinheZ
      * @Date: 2019/4/19
     **/
-    Integer getCurrentCount() throws Exception;
+    Integer getCurrentCount(Integer id) throws Exception;
 
     /**
      * @Description:  根据 ID 获取库存数量
