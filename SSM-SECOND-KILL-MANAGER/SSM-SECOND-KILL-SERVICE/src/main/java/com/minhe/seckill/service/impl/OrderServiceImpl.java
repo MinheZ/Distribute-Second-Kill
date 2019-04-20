@@ -11,6 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * @program: SSM-SECOND-KILL
@@ -29,6 +30,7 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private StockOrderMapper orderMapper;
 
+    @Transactional
     @Override
     public int createWrongOrder(Integer id) throws StockException {
         // 先检验库存

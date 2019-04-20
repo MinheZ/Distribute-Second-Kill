@@ -1,5 +1,6 @@
 package com.minhe.seckill.controller;
 
+import com.minhe.seckill.service.OrderService;
 import com.minhe.seckill.service.StockService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,11 +20,26 @@ public class IndexControllerTest {
     @Autowired
     private StockService stockService;
 
-    private Integer id = 1;
+    @Autowired
+    private OrderService orderService;
+
+    private Integer sid = 1;
 
     @Test
     public void getStockCount() {
-        logger.info("count={}", stockService.getStockCount(id));
+        logger.info("count={}", stockService.getStockCount(sid));
         //System.out.println(stockService.getStockCount(id));
+    }
+
+    @Test
+    public void createWrongOrder() {
+        logger.info("sid=[{}]", sid);
+        int id = 0;
+        try {
+            id = orderService.createWrongOrder(sid);
+        } catch (Exception e) {
+            logger.info("Exception", e);
+        }
+        logger.info("id={}", id);
     }
 }
