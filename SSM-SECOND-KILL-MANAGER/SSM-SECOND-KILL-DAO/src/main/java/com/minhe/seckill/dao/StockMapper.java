@@ -94,4 +94,13 @@ public interface StockMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(Stock record);
+
+    /**
+     * @Description: 乐观锁更新库存 dao
+     * @Param: [stock]
+     * @return: int
+     * @Author: MinheZ
+     * @Date: 2019/4/20
+    **/
+    int updateByOptimisticLock(Stock stock);
 }

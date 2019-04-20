@@ -18,6 +18,14 @@ public interface OrderService {
      * @Author: MinheZ
      * @Date: 2019/4/19
     **/
-    int createWrongOrder(Integer id) throws StockException;
+    int createWrongOrder(Integer sid) throws StockException;
 
+    /**
+     * @Description: 使用乐观锁跟新数据库
+     * @Param: [sid]
+     * @return: int
+     * @Author: MinheZ
+     * @Date: 2019/4/20
+    **/
+    int createOrderByOptimisticLock(Integer sid) throws StockException;
 }

@@ -46,4 +46,9 @@ public class StockServiceImpl implements StockService {
         // 会对字段进行判断再更新(如果为Null就忽略更新)，如果只想更新某一字段，可以用这个方法
         return stockMapper.updateByPrimaryKeySelective(stock);
     }
+
+    @Override
+    public int updateStockByOptimisticLock(Stock stock) {
+        return stockMapper.updateByOptimisticLock(stock);
+    }
 }

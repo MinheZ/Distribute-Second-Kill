@@ -32,22 +32,35 @@ public class OrderServiceImpl implements OrderService {
 
     @Transactional
     @Override
-    public int createWrongOrder(Integer id) throws StockException {
+    public int createWrongOrder(Integer sid) throws StockException {
         // 先检验库存
-        Stock stock = checkStock(id);
+        Stock stock = checkStock(sid);
         // 库存足够，则扣库存
         saleStock(stock);
         // 创建订单
-        int ret = createOrder(stock);
-        return ret;
+        return createOrder(stock);
     }
+    @Transactional
+    @Override
+    public int createOrderByOptimisticLock(Integer sid) throws StockException{
+        // 先检验库存
+        Stock stock = checkStock(sid);
+        saleStockByOptimisticLock(stock);
+        return createOrder(stock);
+    }
+
+    private void saleStockByOptimisticLock(Stock stock) {
+        int i = stockService.updateStockByOptimisticLock(stock);
+        if (i == 0)
+            throw new RuntimeException("并发更新数据失败！");
+    }
+
 
     private int createOrder(Stock stock) {
         StockOrder order = new StockOrder();
         order.setSid(stock.getId());
         order.setName(stock.getName());
-        int ret = orderMapper.insertSelective(order);
-        return ret;
+        return orderMapper.insertSelective(order);
     }
 
     /**
