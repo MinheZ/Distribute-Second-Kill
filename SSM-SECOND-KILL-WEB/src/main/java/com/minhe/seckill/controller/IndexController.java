@@ -1,5 +1,6 @@
 package com.minhe.seckill.controller;
 
+import com.crossoverjie.distributed.annotation.SpringControllerLimit;
 import com.minhe.seckill.exception.SoldOutException;
 import com.minhe.seckill.service.OrderService;
 import com.minhe.seckill.service.StockService;
@@ -28,6 +29,22 @@ public class IndexController {
 
     @Autowired
     private OrderService orderService;
+
+    @SpringControllerLimit(errorCode = 200, errorMsg = "request has limited")
+    @RequestMapping("/createByOptimisticLockUseRedis/{sid}")
+    @ResponseBody
+    public String createByOptimisticLockUseRedis(@PathVariable Integer sid) {
+        logger.info("sid=[{}]", sid);
+        try {
+            orderService.createByOptimisticLockUseRedis(sid);
+            return "/success";
+        } catch (SoldOutException soldOut) {
+            logger.info("soldOut", soldOut);
+        } catch (Exception e) {
+            logger.info("Exception", e);
+        }
+        return "/failed";
+    }
 
     @RequestMapping("/createByOptimisticLock/{sid}")
     public String createByOptimisticLock(@PathVariable int sid) {

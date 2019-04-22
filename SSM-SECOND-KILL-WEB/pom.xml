@@ -103,6 +103,11 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
         </dependency>
+        <!--   redis     -->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
+        </dependency>
 
         <!--        SpringMVC 配置-->
         <dependency>
@@ -134,6 +139,11 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>top.crossoverjie.opensource</groupId>
+            <artifactId>distributed-redis-tool</artifactId>
         </dependency>
 
     </dependencies>

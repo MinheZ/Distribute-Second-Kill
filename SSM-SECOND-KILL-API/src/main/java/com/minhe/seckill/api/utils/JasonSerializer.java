@@ -1,5 +1,8 @@
 package com.minhe.seckill.api.utils;
 
+import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.serializer.SerializerFeature;
+import org.apache.kafka.common.errors.SerializationException;
 import org.apache.kafka.common.serialization.Serializer;
 
 import java.util.Map;
@@ -10,8 +13,12 @@ import java.util.Map;
  * @author: MinheZ
  * @create: 2019-04-19 10:32
  **/
-//implements Serializer
+
 public class JasonSerializer<T> implements Serializer<T> {
+
+    public JasonSerializer() {
+    }
+
     @Override
     public void configure(Map<String, ?> map, boolean b) {
 
@@ -19,7 +26,16 @@ public class JasonSerializer<T> implements Serializer<T> {
 
     @Override
     public byte[] serialize(String s, T t) {
-        return new byte[0];
+        try {
+            byte[] result = null;
+            if (t != null) {
+                result = JSONObject.toJSONBytes(t, SerializerFeature.UseISO8601DateFormat,
+                        SerializerFeature.WriteMapNullValue, SerializerFeature.WriteClassName);
+            }
+            return result;
+        } catch (Exception e) {
+            throw new SerializationException("Can't serialize data [" + t + "] for topic [" + s + "]", e);
+        }
     }
 
     @Override

@@ -28,4 +28,13 @@ public interface OrderService {
      * @Date: 2019/4/20
     **/
     int createOrderByOptimisticLock(Integer sid) throws StockException;
+
+    /**
+     * @Description: Redis限流 + 乐观锁 
+     * @Param: [sid]
+     * @return: void
+     * @Author: MinheZ
+     * @Date: 2019/4/22
+    **/
+    void createByOptimisticLockUseRedis(Integer sid);
 }
