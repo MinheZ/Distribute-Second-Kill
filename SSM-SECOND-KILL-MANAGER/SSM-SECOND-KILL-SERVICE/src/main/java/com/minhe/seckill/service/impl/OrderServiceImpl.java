@@ -58,6 +58,8 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public int createByOptimisticLockUseRedis(Integer sid) {
         Stock stock = checkStockByRedis(sid);
+        if (stock == null)
+            return 0;
         saleStockByOptimisticLockUseRedis(stock);
         return createOrder(stock);
     }
@@ -70,21 +72,46 @@ public class OrderServiceImpl implements OrderService {
         // 自增
         redisTe.opsForValue().increment(RedisKeysConstant.STOCK_SALE + stock.getId(), 1);
         redisTe.opsForValue().increment(RedisKeysConstant.STOCK_VERSION + stock.getId(), 1);
-
     }
 
+    /**
+     * @Description: 检查库存，这里应该先访问缓存，未命中再访问数据库，重新写缓存
+     * @Param: [sid]
+     * @return: com.minhe.seckill.pojo.Stock
+     * @Author: MinheZ
+     * @Date: 2019/4/23
+    **/
     private Stock checkStockByRedis(Integer sid) {
-        Integer count = Integer.parseInt(redisTe.opsForValue().get(RedisKeysConstant.STOCK_COUNT + sid));
-        Integer sale = Integer.parseInt(redisTe.opsForValue().get(RedisKeysConstant.STOCK_SALE + sid));
-        if (count.equals(sale)) {
-            throw new SoldOutException("sold out!");
+        try {
+            Integer count = Integer.parseInt(redisTe.opsForValue().get(RedisKeysConstant.STOCK_COUNT + sid));
+            Integer sale = Integer.parseInt(redisTe.opsForValue().get(RedisKeysConstant.STOCK_SALE + sid));
+            String name = redisTe.opsForValue().get(RedisKeysConstant.STOCK_NAME + sid);
+            if (count.equals(sale)) {
+                throw new SoldOutException("sold out!");
+            }
+            Integer version = Integer.parseInt(redisTe.opsForValue().get(RedisKeysConstant.STOCK_VERSION + sid));
+            Stock stock = new Stock();
+            stock.setId(sid);
+            stock.setName(name);
+            stock.setCount(count);
+            stock.setSale(sale);
+            stock.setVersion(version);
+            return stock;
+        } catch (Exception e) {
+            logger.error("Exception", e);
         }
-        Integer version = Integer.parseInt(redisTe.opsForValue().get(RedisKeysConstant.STOCK_VERSION + sid));
-        Stock stock = new Stock();
-        stock.setId(sid);
-        stock.setCount(count);
-        stock.setSale(sale);
-        stock.setVersion(version);
+        // 查数据库
+        Stock stock = checkStock(sid);
+        if (stock != null) {    // 向缓存写数据
+            try {
+                redisTe.opsForValue().set(RedisKeysConstant.STOCK_NAME + stock.getId(), stock.getName());
+                redisTe.opsForValue().set(RedisKeysConstant.STOCK_COUNT + stock.getId(), String.valueOf(stock.getCount()));
+                redisTe.opsForValue().set(RedisKeysConstant.STOCK_SALE + stock.getId(), String.valueOf(stock.getSale()));
+                redisTe.opsForValue().set(RedisKeysConstant.STOCK_VERSION + stock.getId(), String.valueOf(stock.getVersion()));
+            } catch (Exception e) {
+                logger.error("Exception", e);
+            }
+        }
         return stock;
     }
 
