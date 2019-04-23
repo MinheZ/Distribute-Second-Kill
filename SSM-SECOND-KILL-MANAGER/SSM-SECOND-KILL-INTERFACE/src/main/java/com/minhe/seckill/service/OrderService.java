@@ -30,11 +30,12 @@ public interface OrderService {
     int createOrderByOptimisticLock(Integer sid) throws StockException;
 
     /**
-     * @Description: Redis限流 + 乐观锁 
+     * @Description: Redis限流 + 乐观锁 + 缓存
      * @Param: [sid]
      * @return: void
      * @Author: MinheZ
      * @Date: 2019/4/22
     **/
-    void createByOptimisticLockUseRedis(Integer sid);
+    int createByOptimisticLockUseRedis(Integer sid);
+
 }

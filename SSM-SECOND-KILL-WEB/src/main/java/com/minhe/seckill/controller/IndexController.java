@@ -46,6 +46,22 @@ public class IndexController {
         return "/failed";
     }
 
+    @SpringControllerLimit(errorCode = 200)
+    @RequestMapping("/createByOptimisticLockLimited/{sid}")
+    @ResponseBody
+    public String createByOptimisticLockLimited(@PathVariable Integer sid) {
+        logger.info("sid=[{}]", sid);
+        try {
+            orderService.createOrderByOptimisticLock(sid);
+            return "/success";
+        } catch (SoldOutException soldOut) {
+            logger.info("soldOut", soldOut);
+        } catch (Exception e) {
+            logger.info("Exception", e);
+        }
+        return "/failed";
+    }
+
     @RequestMapping("/createByOptimisticLock/{sid}")
     public String createByOptimisticLock(@PathVariable int sid) {
         logger.info("sid=[{}]", sid);

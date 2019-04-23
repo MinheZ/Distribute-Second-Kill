@@ -1,5 +1,6 @@
 package com.minhe.seckill.service.impl;
 
+import com.minhe.seckill.api.constant.RedisKeysConstant;
 import com.minhe.seckill.dao.StockOrderMapper;
 import com.minhe.seckill.exception.SoldOutException;
 import com.minhe.seckill.exception.StockException;
@@ -10,6 +11,7 @@ import com.minhe.seckill.service.StockService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -30,6 +32,9 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private StockOrderMapper orderMapper;
 
+    @Autowired
+    private RedisTemplate<String, String> redisTe;
+
     @Transactional
     @Override
     public int createWrongOrder(Integer sid) throws StockException {
@@ -47,6 +52,40 @@ public class OrderServiceImpl implements OrderService {
         Stock stock = checkStock(sid);
         saleStockByOptimisticLock(stock);
         return createOrder(stock);
+    }
+
+    @Transactional
+    @Override
+    public int createByOptimisticLockUseRedis(Integer sid) {
+        Stock stock = checkStockByRedis(sid);
+        saleStockByOptimisticLockUseRedis(stock);
+        return createOrder(stock);
+    }
+
+    private void saleStockByOptimisticLockUseRedis(Stock stock) {
+        int count = stockService.updateStockByOptimisticLock(stock);
+        if (count == 0) {
+            throw new RuntimeException("并发更新库存失败！");
+        }
+        // 自增
+        redisTe.opsForValue().increment(RedisKeysConstant.STOCK_SALE + stock.getId(), 1);
+        redisTe.opsForValue().increment(RedisKeysConstant.STOCK_VERSION + stock.getId(), 1);
+
+    }
+
+    private Stock checkStockByRedis(Integer sid) {
+        Integer count = Integer.parseInt(redisTe.opsForValue().get(RedisKeysConstant.STOCK_COUNT + sid));
+        Integer sale = Integer.parseInt(redisTe.opsForValue().get(RedisKeysConstant.STOCK_SALE + sid));
+        if (count.equals(sale)) {
+            throw new SoldOutException("sold out!");
+        }
+        Integer version = Integer.parseInt(redisTe.opsForValue().get(RedisKeysConstant.STOCK_VERSION + sid));
+        Stock stock = new Stock();
+        stock.setId(sid);
+        stock.setCount(count);
+        stock.setSale(sale);
+        stock.setVersion(version);
+        return stock;
     }
 
     private void saleStockByOptimisticLock(Stock stock) {

@@ -29,4 +29,10 @@ public class OrderServiceImplTest {
     public void createOrderByOptimisticLock() {
         logger.info("result={}", order.createOrderByOptimisticLock(id));
     }
+
+    @Test
+    public void createByOptimisticLockUseRedis() {
+        logger.info("result={}", order.createByOptimisticLockUseRedis(id));
+//        System.out.println(Integer.parseInt(null));
+    }
 }
