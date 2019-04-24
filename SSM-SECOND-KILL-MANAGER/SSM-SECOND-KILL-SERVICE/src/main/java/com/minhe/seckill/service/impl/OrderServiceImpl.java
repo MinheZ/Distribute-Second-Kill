@@ -85,7 +85,10 @@ public class OrderServiceImpl implements OrderService {
      * @Date: 2019/4/23
     **/
     private Stock checkStockByRedis(Integer sid) {
-        // 这里会出现好几个 NumberFormat Exception 异常，分析的结果是好几个线程并发得进入了try{}里面，而此时缓存还未更新
+        /*
+        * 这里会出现好几个 NumberFormat Exception 异常，分析的结果是好几个线程并发得进入了try{}里面，
+        * 而此时缓存还未更新。这里应该做缓存预热。
+        * */
         try {
             Integer count = Integer.parseInt(redisTe.opsForValue().get(RedisKeysConstant.STOCK_COUNT + sid));
             Integer sale = Integer.parseInt(redisTe.opsForValue().get(RedisKeysConstant.STOCK_SALE + sid));

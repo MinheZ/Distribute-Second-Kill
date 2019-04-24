@@ -18,7 +18,7 @@
     <mvc:annotation-driven/>
 
     <!--开启cglib代理-->
-    <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy>
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
 
     <!--拦截器-->
     <mvc:interceptors>
