@@ -35,6 +35,8 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private RedisTemplate<String, String> redisTe;
 
+//    private boolean flag = true;
+
     @Transactional
     @Override
     public int createWrongOrder(Integer sid) throws StockException {
@@ -45,6 +47,7 @@ public class OrderServiceImpl implements OrderService {
         // 创建订单
         return createOrder(stock);
     }
+
     @Transactional
     @Override
     public int createOrderByOptimisticLock(Integer sid) throws StockException{
@@ -65,8 +68,8 @@ public class OrderServiceImpl implements OrderService {
     }
 
     private void saleStockByOptimisticLockUseRedis(Stock stock) {
-        int count = stockService.updateStockByOptimisticLock(stock);
-        if (count == 0) {
+        int i = stockService.updateStockByOptimisticLock(stock);
+        if (i == 0) {
             throw new RuntimeException("并发更新库存失败！");
         }
         // 自增
@@ -82,6 +85,7 @@ public class OrderServiceImpl implements OrderService {
      * @Date: 2019/4/23
     **/
     private Stock checkStockByRedis(Integer sid) {
+        // 这里会出现好几个 NumberFormat Exception 异常，分析的结果是好几个线程并发得进入了try{}里面，而此时缓存还未更新
         try {
             Integer count = Integer.parseInt(redisTe.opsForValue().get(RedisKeysConstant.STOCK_COUNT + sid));
             Integer sale = Integer.parseInt(redisTe.opsForValue().get(RedisKeysConstant.STOCK_SALE + sid));
@@ -98,7 +102,7 @@ public class OrderServiceImpl implements OrderService {
             stock.setVersion(version);
             return stock;
         } catch (Exception e) {
-            logger.error("Exception", e);
+            logger.error("NumberFormat Exception" + System.currentTimeMillis(), e);
         }
         // 查数据库
         Stock stock = checkStock(sid);
@@ -109,7 +113,7 @@ public class OrderServiceImpl implements OrderService {
                 redisTe.opsForValue().set(RedisKeysConstant.STOCK_SALE + stock.getId(), String.valueOf(stock.getSale()));
                 redisTe.opsForValue().set(RedisKeysConstant.STOCK_VERSION + stock.getId(), String.valueOf(stock.getVersion()));
             } catch (Exception e) {
-                logger.error("Exception", e);
+                logger.error("No such item exception!", e);
             }
         }
         return stock;

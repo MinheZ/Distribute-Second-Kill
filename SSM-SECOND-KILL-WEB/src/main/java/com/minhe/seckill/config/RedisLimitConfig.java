@@ -22,16 +22,18 @@ public class RedisLimitConfig {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Value("${redis.limit}")
-    private int limit;
+    @Value("10")
+    private int limit;  // 每 2s 放 10个请求
 
     @Autowired
     private JedisConnectionFactory jedisConnectionFactory;
 
     @Bean
     public RedisLimit build() {
+        System.out.println(limit);
         RedisLimit redisLimit = new RedisLimit.Builder(jedisConnectionFactory,
                 RedisToolsConstant.SINGLE).limit(limit).build();
+        System.out.println(limit);
         return redisLimit;
     }
 

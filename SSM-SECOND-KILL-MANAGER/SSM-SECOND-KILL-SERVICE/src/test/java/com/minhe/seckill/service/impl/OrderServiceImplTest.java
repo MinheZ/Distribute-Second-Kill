@@ -32,7 +32,7 @@ public class OrderServiceImplTest {
 
     @Test
     public void createByOptimisticLockUseRedis() {
-        logger.info("result={}", order.createByOptimisticLockUseRedis(id));
+        logger.info("result={}", order.createByOptimisticLockUseRedis(2));
 //        System.out.println(Integer.parseInt(null));
 //        try {
 //            System.out.println(Integer.parseInt(null));
