@@ -9,6 +9,8 @@ package com.minhe.seckill.api.constant;
 
 public class RedisKeysConstant {
 
+    public final static String STOCK_ID = "stock_id_";
+
     public final static String STOCK_NAME = "stock_name_";
 
     public final static String STOCK_COUNT = "stock_count_";
